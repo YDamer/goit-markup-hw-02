@@ -46,6 +46,10 @@ ul {
 .site-nav .link{
     color:var(--primary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover, .site-nav 
 .link:focus{
@@ -53,26 +57,20 @@ ul {
 }
 .site-nav .link.current{
     color:var(--accent-color);
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 }
 
 /* Contact nav */
 .contact-nav .contact{
     color:var(--secondary-text-color);
     text-decoration: none;
-}
-.contact-nav .contact:hover,
-.contact-nav .contact:focus{
-    color:var(--accent-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.contact-nav .contact:hover,
+.contact-nav .contact:focus{
+    color:var(--accent-color);
 }
 
 /* Hero */
@@ -99,6 +97,7 @@ ul {
    .button-primary{
        background-color:var(--accent-color);
        color: var(--primari-background-color);
+       font-family: Roboto;
 
     font-weight: 700;
     font-size: 16px;
@@ -113,6 +112,7 @@ ul {
    .button-filter:focus{
     background-color:var(--accent-color);
     color: var(--primari-background-color);
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -130,7 +130,7 @@ text-transform: uppercase;
 }
 .advantage-text{
     color:var(--secondary-text-color);
-
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -180,10 +180,12 @@ text-align: center;
 .contact-link{
     color: rgba(255, 255, 255, 0.6); 
     text-decoration: none;
+    font-style: normal
 } 
 .address-text{
     font-size: 14px;
     line-height: 1.71;  
+    font-style: normal
 }
 
 /* Фильтр работ */
